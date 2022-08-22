@@ -120,6 +120,8 @@ class CradlePawn {
 
       this.removeEventListener("pointerDoubleDown", "onPointerDoubleDown");
       this.addEventListener("pointerDoubleDown", "nop");
+      import("/assets/import-test/console.js").then((m) => m.consoleFoo());
+      
   }
 }
 
